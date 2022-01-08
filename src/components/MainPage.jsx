@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Footer from "./Footer";
 
 function MainPage() {
   const [mainData, setMainData] = useState({});
@@ -38,13 +39,7 @@ function MainPage() {
         <p>no data available</p>
       )}
       <footer>
-        {mainData.meta ? (
-          <div>
-            &#169; Wadim Skworzow <br /> Source: Robert Koch-Institut <br />{" "}
-            Last Update:{" "}
-            {new Date(mainData.meta.lastUpdate).toLocaleDateString()}
-          </div>
-        ) : null}
+        <Footer/>
       </footer>
     </div>
   );
