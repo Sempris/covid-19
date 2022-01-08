@@ -1,0 +1,43 @@
+.App {
+	text-align: center;
+}
+
+h1, h2 {
+	margin: 20px 0 !important;
+}
+
+.main-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+	position: relative;
+}
+
+.box {
+	padding: 40px 20px;
+	margin: 20px 10px;
+	font-size: 1.6rem;
+	width: calc(33% - 20px);
+	border: 1px solid #c5bfc1;
+	border-radius: 20px;
+	background: #e0e0e0;
+	box-shadow:  10px 10px 20px #bebebe, -10px -10px 20px #bebebe;
+}
+
+.bold {
+	color: red;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	color: dimgrey;
+}
+
+footer div {
+	width: 50%;
+	margin: 10px auto;
+}
