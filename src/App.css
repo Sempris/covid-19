@@ -21,6 +21,16 @@ h1, h2 {
 	position: relative;
 }
 
+.test-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+	position: relative;
+}
+
 .box {
 	padding: 40px 20px;
 	margin: 20px 10px;
