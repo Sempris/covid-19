@@ -58,6 +58,10 @@ h1, h2 {
 	width: 33.33%;
 }
 
+.error img {
+	width: 600px;
+}
+
 footer {
 	position: fixed;
 	bottom: 0;
@@ -86,5 +90,9 @@ footer div {
 
 	.map img {
 		width: 100%;
+	}
+
+	.error img {
+		width: 300px;
 	}
 }
