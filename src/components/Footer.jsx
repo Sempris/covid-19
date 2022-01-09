@@ -24,7 +24,7 @@ function Footer() {
           </a>
           . Last Update:{" "}
           {new Date(metaData.meta.lastUpdate).toLocaleDateString()}. &#169;{" "}
-          <a href="http://sempris.od.ua/">Wadim Skworzow</a>.
+          <a href="https://github.com/Sempris">Wadim Skworzow</a>.
         </div>
       ) : null}
     </div>
