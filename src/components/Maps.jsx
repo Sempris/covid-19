@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "./Footer";
 
 function Maps() {
   return (
@@ -11,9 +10,6 @@ function Maps() {
           <img src="https://api.corona-zahlen.org/map/states-legend" alt="States Data" />
           <img src="https://api.corona-zahlen.org/map/states-legend/hospitalization" alt="Hospitalization" />
         </div>
-      <footer>
-        <Footer />
-      </footer>
     </div>
   );
 }

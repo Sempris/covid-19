@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Accordion } from "react-bootstrap";
-import Footer from "./Footer";
 
 function States() {
   const [stateData, setStateData] = useState({});
@@ -844,9 +843,6 @@ function States() {
       ) : (
         <p>no data available</p>
       )}
-      <footer>
-        <Footer />
-      </footer>
     </div>
   );
 }

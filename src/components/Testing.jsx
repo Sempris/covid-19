@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Footer from "./Footer";
 
 function Testing() {
   const [testingData, setTestingData] = useState({});
@@ -50,9 +49,6 @@ function Testing() {
       ) : (
         <p>no data available</p>
       )}
-      <footer>
-        <Footer />
-      </footer>
     </div>
   );
 }

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Footer from "./Footer";
 
 function Vaccination() {
   const [vaccinationData, setVaccinationData] = useState({});
@@ -109,9 +108,6 @@ function Vaccination() {
       ) : (
         <p>no data available</p>
       )}
-      <footer>
-        <Footer />
-      </footer>
     </div>
   );
 }

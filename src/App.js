@@ -10,6 +10,7 @@ import Vaccination from "./components/Vaccination";
 import Maps from "./components/Maps";
 import Testing from "./components/Testing";
 import Error from "./components/Error";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
 		  <Route path="*" element={<Error />} />
 		</Routes>
 	  </BrowserRouter>
+	  <footer>
+        <Footer/>
+      </footer>
 	</div>
   );
 }
