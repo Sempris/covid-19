@@ -46,6 +46,18 @@ h1, h2 {
 	color: red;
 }
 
+.map {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.map img {
+	width: 33.33%;
+}
+
 footer {
 	position: fixed;
 	bottom: 0;
@@ -57,4 +69,22 @@ footer {
 footer div {
 	width: 90%;
 	margin: 20px auto;
+}
+
+@media screen and (max-width: 640px) {
+	.main-box {
+		flex-direction: column;
+	}
+
+	.box {
+		width: 90%;
+	}
+
+	.map {
+		flex-direction: column;
+	}
+
+	.map img {
+		width: 100%;
+	}
 }

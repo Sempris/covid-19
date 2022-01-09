@@ -11,6 +11,13 @@ function Testing() {
     setTestingData(data);
   };
 
+  const getHistory = () => {
+    if (testingData) {
+      var actualData = testingData.data.history[testingData.data.history.length - 1];
+    }
+    return actualData;
+  }
+
   useEffect(() => {
     getTestingData();
   }, []);
@@ -19,30 +26,30 @@ function Testing() {
     <div>
       <h1>COVID-19 in Germany</h1>
       <h2>Information about Tests</h2>
-      {/* {testingData ? (
+      {testingData ? (
         <div className="container test-box">
           <div className="box">
             Performed Tests:{" "}
             <span className="bold">
-              {testingData.data.history.performedTests && testingData.data.history.performedTests.toLocaleString()}
+              {testingData.data && getHistory().performedTests.toLocaleString()}
             </span>
           </div>
           <div className="box">
             Positive Tests:{" "}
             <span className="bold">
-              {testingData.data.history.positiveTests && testingData.data.history.positiveTests.toLocaleString()}
+              {testingData.data && getHistory().positiveTests.toLocaleString()}
             </span>
           </div>
           <div className="box">
             Positive Test Rate:{" "}
             <span className="bold">
-              {testingData.data.history.positivityRate && testingData.data.history.positivityRate.toLocaleString()}
+              {testingData.data && (Math.floor((getHistory().positivityRate) * 100) + '%')}
             </span>
           </div>
         </div>
       ) : (
         <p>no data available</p>
-      )} */}
+      )}
       <footer>
         <Footer />
       </footer>

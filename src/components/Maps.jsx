@@ -1,33 +1,18 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Footer from "./Footer";
 
 function Maps() {
-  const [mapsDistrictData, setMapsDistrictData] = useState('');
-
-  const getMapsDistrictData = async () => {
-    const data = await (
-      await fetch("https://api.corona-zahlen.org/map/districts-legend")
-    ).json();
-    setMapsDistrictData(data);
-  };
-
-  useEffect(() => {
-    getMapsDistrictData();
-  }, []);
-
   return (
     <div>
       <h1>COVID-19 in Germany</h1>
       <h2>Information on Maps</h2>
-      {mapsDistrictData ? (
-        <div className="container main-box">
-          <div className="map"><img src={mapsDistrictData} alt="District Data"/></div>
+        <div className="map">
+          <img src="https://api.corona-zahlen.org/map/districts-legend" alt="District Data" />
+          <img src="https://api.corona-zahlen.org/map/states-legend" alt="States Data" />
+          <img src="https://api.corona-zahlen.org/map/states-legend/hospitalization" alt="Hospitalization" />
         </div>
-      ) : (
-        <p>no data available</p>
-      )}
       <footer>
-        <Footer/>
+        <Footer />
       </footer>
     </div>
   );

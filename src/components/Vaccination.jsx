@@ -36,7 +36,7 @@ function Vaccination() {
             </span>
           </div>
           <div className="box">
-            Booster:{" "}
+            Booster Vaccinated:{" "}
             <span className="bold">
               {vaccinationData.data.boosterVaccination.vaccinated &&
                 vaccinationData.data.boosterVaccination.vaccinated.toLocaleString()}
