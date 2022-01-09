@@ -12,6 +12,22 @@ h1, h2 {
 	text-decoration: none;
 }
 
+.App a:hover {
+	color: #34a853;
+}
+
+.nav-link {
+	color: #c1eb36 !important;
+}
+
+.nav-link:hover {
+	color: #34a853 !important;
+}
+
+.nav-link:focus {
+	color: #34a853 !important;
+}
+
 .main-box {
 	display: flex;
 	justify-content: space-between;
