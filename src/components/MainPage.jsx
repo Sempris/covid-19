@@ -16,7 +16,6 @@ function MainPage() {
 
   return (
     <div>
-      <h1>COVID-19 in Germany</h1>
       <h2>Statistic Overview</h2>
       {mainData ? (
         <div className="container main-box">
@@ -35,7 +34,7 @@ function MainPage() {
 		  {mainData.hospitalization ? (<div className="box">🚑 Hospitalization: <span className="bold">{mainData.hospitalization.incidence7Days}</span></div>) : null}
         </div>
       ) : (
-        <p>no data available</p>
+        <p>No data available</p>
       )}
     </div>
   );

@@ -23,7 +23,6 @@ function Testing() {
 
   return (
     <div>
-      <h1>COVID-19 in Germany</h1>
       <h2>Information about Tests</h2>
       {testingData ? (
         <div className="container test-box">
@@ -47,7 +46,7 @@ function Testing() {
           </div>
         </div>
       ) : (
-        <p>no data available</p>
+        <p>No data available</p>
       )}
     </div>
   );

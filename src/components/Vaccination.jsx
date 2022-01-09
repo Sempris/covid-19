@@ -16,7 +16,6 @@ function Vaccination() {
 
   return (
     <div>
-      <h1>COVID-19 in Germany</h1>
       <h2>Information about Vaccination</h2>
       {vaccinationData.data ? (
         <div className="container main-box">
@@ -106,7 +105,7 @@ function Vaccination() {
           </div>
         </div>
       ) : (
-        <p>no data available</p>
+        <p>No data available</p>
       )}
     </div>
   );

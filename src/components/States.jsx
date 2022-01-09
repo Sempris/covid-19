@@ -17,7 +17,6 @@ function States() {
 
   return (
     <div>
-      <h1>COVID-19 in Germany</h1>
       <h2>Information by State</h2>
       {stateData.data ? (
         <div className="container accordion">
@@ -841,7 +840,7 @@ function States() {
           </Accordion>
         </div>
       ) : (
-        <p>no data available</p>
+        <p>No data available</p>
       )}
     </div>
   );

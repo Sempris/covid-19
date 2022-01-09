@@ -17,6 +17,7 @@ function App() {
 	<div className="App">
 	  <BrowserRouter>
 		<Navbar />
+		<h1>COVID-19 in Germany</h1>
 		<Routes>
 		  <Route path="/" element={<MainPage />} />
 		  <Route path="/states" element={<States />} />
