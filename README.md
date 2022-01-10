@@ -8,7 +8,9 @@ The project showcases the most important information by states and maps of Germa
 
 ## Live Version:
 
-Place for link
+[Live Version on Netlify](covid19-info-sempris.netlify.app)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7c5b25a9-83ea-480d-9408-9630b2690488/deploy-status)](https://app.netlify.com/sites/covid19-info-sempris/deploys)
 
 ## Used Technologies:
 
