@@ -44,21 +44,21 @@ function Vaccination() {
             1st Vaccinated Quote:{" "}
             <span className="bold">
               {vaccinationData.data.quote &&
-                vaccinationData.data.quote * 100 + "%"}
+                (vaccinationData.data.quote * 100).toFixed(1) + "%"}
             </span>
           </div>
           <div className="box">
             Fully Vaccinated Quote:{" "}
             <span className="bold">
               {vaccinationData.data.secondVaccination.quote &&
-                vaccinationData.data.secondVaccination.quote * 100 + "%"}
+                (vaccinationData.data.secondVaccination.quote * 100).toFixed(1) + "%"}
             </span>
           </div>
           <div className="box">
             Booster Vaccinated Quote:{" "}
             <span className="bold">
               {vaccinationData.data.boosterVaccination.quote &&
-                vaccinationData.data.boosterVaccination.quote * 100 + "%"}
+               (vaccinationData.data.boosterVaccination.quote * 100).toFixed(1) + "%"}
             </span>
           </div>
           <div className="box">
