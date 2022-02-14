@@ -23,10 +23,10 @@ function MainPage() {
           <div className="box">🪦 Deaths: <span className="bold">{mainData.deaths && mainData.deaths.toLocaleString()}</span></div>
           <div className="box">😀 Recovered: <span className="bold">{mainData.recovered && mainData.recovered.toLocaleString()}</span></div>
           <div className="box">
-            📅 Weekly Incidence: <span className="bold">{Math.floor(mainData.weekIncidence)}</span>
+            📅 Weekly Incidence: <span className="bold">{Math.floor(mainData.weekIncidence).toLocaleString()}</span>
           </div>
           <div className="box">
-            📊 Incidence per 100k: <span className="bold">{Math.floor(mainData.casesPer100k)}</span>
+            📊 Incidence per 100k: <span className="bold">{Math.floor(mainData.casesPer100k).toLocaleString()}</span>
           </div>
           <div className="box">📈 Cases per Week: <span className="bold">{mainData.casesPerWeek && mainData.casesPerWeek.toLocaleString()}</span></div>
 		  {mainData.r ? (<div className="box">😷 R-Wert (4 Days): <span className="bold">{mainData.r.rValue4Days.value}</span></div>) : null}
