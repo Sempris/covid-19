@@ -20,7 +20,7 @@ function MainPage() {
       {mainData ? (
         <div className="container main-box">
           <div className="box">🦠 Cases: <span className="bold">{mainData.cases && mainData.cases.toLocaleString()}</span></div>
-          <div className="box">🪦 Deaths: <span className="bold">{mainData.deaths && mainData.deaths.toLocaleString()}</span></div>
+          <div className="box">💀 Deaths: <span className="bold">{mainData.deaths && mainData.deaths.toLocaleString()}</span></div>
           <div className="box">😀 Recovered: <span className="bold">{mainData.recovered && mainData.recovered.toLocaleString()}</span></div>
           <div className="box">
             📅 Weekly Incidence: <span className="bold">{Math.floor(mainData.weekIncidence).toLocaleString()}</span>

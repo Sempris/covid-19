@@ -21,12 +21,12 @@ function Navbar() {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <NavLink className="nav-link" aria-current="page" to="/">
-                  🔥 Main
+                  🩺 Main
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/states">
-                  🇩🇪 States
+                  🏠 States
                 </NavLink>
               </li>
               <li className="nav-item">
@@ -41,7 +41,7 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/testing">
-                  🩺 Testing
+                  🔬 Testing
                 </NavLink>
               </li>
             </ul>
