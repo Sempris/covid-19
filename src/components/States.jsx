@@ -137,7 +137,7 @@ function States() {
                     </span>
                   </div>
                   <div className="box">
-                    🪦 Deaths:{" "}
+                    💀 Deaths:{" "}
                     <span className="bold">
                       {stateData.data.BW &&
                         stateData.data.BW.deaths.toLocaleString()}
@@ -188,7 +188,7 @@ function States() {
                     </span>
                   </div>
                   <div className="box">
-                    🪦 Deaths:{" "}
+                    💀 Deaths:{" "}
                     <span className="bold">
                       {stateData.data.BY &&
                         stateData.data.BY.deaths.toLocaleString()}
@@ -239,7 +239,7 @@ function States() {
                     </span>
                   </div>
                   <div className="box">
-                    🪦 Deaths:{" "}
+                    💀 Deaths:{" "}
                     <span className="bold">
                       {stateData.data.HB &&
                         stateData.data.HB.deaths.toLocaleString()}
