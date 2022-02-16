@@ -392,7 +392,7 @@ function States() {
                     </span>
                   </div>
                   <div className="box">
-                    🪦 Deaths:{" "}
+                    💀 Deaths:{" "}
                     <span className="bold">
                       {stateData.data.MV &&
                         stateData.data.MV.deaths.toLocaleString()}
@@ -443,7 +443,7 @@ function States() {
                     </span>
                   </div>
                   <div className="box">
-                    🪦 Deaths:{" "}
+                    💀 Deaths:{" "}
                     <span className="bold">
                       {stateData.data.NI &&
                         stateData.data.NI.deaths.toLocaleString()}
@@ -494,7 +494,7 @@ function States() {
                     </span>
                   </div>
                   <div className="box">
-                    🪦 Deaths:{" "}
+                    💀 Deaths:{" "}
                     <span className="bold">
                       {stateData.data.NW &&
                         stateData.data.NW.deaths.toLocaleString()}
@@ -545,7 +545,7 @@ function States() {
                     </span>
                   </div>
                   <div className="box">
-                    🪦 Deaths:{" "}
+                    💀 Deaths:{" "}
                     <span className="bold">
                       {stateData.data.RP &&
                         stateData.data.RP.deaths.toLocaleString()}
@@ -596,7 +596,7 @@ function States() {
                     </span>
                   </div>
                   <div className="box">
-                    🪦 Deaths:{" "}
+                    💀 Deaths:{" "}
                     <span className="bold">
                       {stateData.data.SH &&
                         stateData.data.SH.deaths.toLocaleString()}
@@ -647,7 +647,7 @@ function States() {
                     </span>
                   </div>
                   <div className="box">
-                    🪦 Deaths:{" "}
+                    💀 Deaths:{" "}
                     <span className="bold">
                       {stateData.data.SL &&
                         stateData.data.SL.deaths.toLocaleString()}
@@ -698,7 +698,7 @@ function States() {
                     </span>
                   </div>
                   <div className="box">
-                    🪦 Deaths:{" "}
+                    💀 Deaths:{" "}
                     <span className="bold">
                       {stateData.data.SN &&
                         stateData.data.SN.deaths.toLocaleString()}
@@ -749,7 +749,7 @@ function States() {
                     </span>
                   </div>
                   <div className="box">
-                    🪦 Deaths:{" "}
+                    💀 Deaths:{" "}
                     <span className="bold">
                       {stateData.data.ST &&
                         stateData.data.ST.deaths.toLocaleString()}
@@ -800,7 +800,7 @@ function States() {
                     </span>
                   </div>
                   <div className="box">
-                    🪦 Deaths:{" "}
+                    💀 Deaths:{" "}
                     <span className="bold">
                       {stateData.data.TH &&
                         stateData.data.TH.deaths.toLocaleString()}
